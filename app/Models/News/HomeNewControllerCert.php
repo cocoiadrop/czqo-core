@@ -6,15 +6,16 @@ use App\Models\Users\User;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * App\Models\News\HomeNewControllerCert
+ * App\Models\News\HomeNewControllerCert.
  *
- * @property int $id
- * @property int $controller_id
- * @property int $user_id
- * @property \Illuminate\Support\Carbon $timestamp
+ * @property int                             $id
+ * @property int                             $controller_id
+ * @property int                             $user_id
+ * @property \Illuminate\Support\Carbon      $timestamp
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read User $controller
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|HomeNewControllerCert newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|HomeNewControllerCert newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|HomeNewControllerCert query()

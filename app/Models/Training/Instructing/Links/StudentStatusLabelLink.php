@@ -7,14 +7,15 @@ use App\Models\Training\Instructing\Students\StudentStatusLabel;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * App\Models\Training\Instructing\Links\StudentStatusLabelLink
+ * App\Models\Training\Instructing\Links\StudentStatusLabelLink.
  *
- * @property int $id
- * @property int $student_status_label_id
- * @property int $student_id
+ * @property int                             $id
+ * @property int                             $student_status_label_id
+ * @property int                             $student_id
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read Student $student
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|StudentStatusLabelLink newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|StudentStatusLabelLink newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|StudentStatusLabelLink query()

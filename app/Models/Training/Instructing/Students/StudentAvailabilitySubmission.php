@@ -7,15 +7,16 @@ use Illuminate\Support\HtmlString;
 use Parsedown;
 
 /**
- * App\Models\Training\Instructing\Students\StudentAvailabilitySubmission
+ * App\Models\Training\Instructing\Students\StudentAvailabilitySubmission.
  *
- * @property int $id
- * @property int $student_id
- * @property string $submission
- * @property string|null $extra_information
+ * @property int                             $id
+ * @property int                             $student_id
+ * @property string                          $submission
+ * @property string|null                     $extra_information
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \App\Models\Training\Instructing\Students\Student $student
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|StudentAvailabilitySubmission newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|StudentAvailabilitySubmission newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|StudentAvailabilitySubmission query()

@@ -8,17 +8,18 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\Activitylog\Traits\LogsActivity;
 
 /**
- * App\Models\Publications\UploadedImage
+ * App\Models\Publications\UploadedImage.
  *
- * @property int $id
- * @property int $user_id
- * @property string $path
+ * @property int                             $id
+ * @property int                             $user_id
+ * @property string                          $path
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \Illuminate\Database\Eloquent\Collection|\Spatie\Activitylog\Models\Activity[] $activities
  * @property-read int|null $activities_count
  * @property-read User $user
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|UploadedImage newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|UploadedImage newQuery()
  * @method static \Illuminate\Database\Query\Builder|UploadedImage onlyTrashed()

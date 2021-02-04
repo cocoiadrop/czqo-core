@@ -5,13 +5,14 @@ namespace App\Models\Settings;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * App\Models\Settings\MaintenanceIPExemption
+ * App\Models\Settings\MaintenanceIPExemption.
  *
- * @property int $id
- * @property string $label
- * @property string $ipv4
+ * @property int                             $id
+ * @property string                          $label
+ * @property string                          $ipv4
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|MaintenanceIPExemption newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|MaintenanceIPExemption newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|MaintenanceIPExemption query()

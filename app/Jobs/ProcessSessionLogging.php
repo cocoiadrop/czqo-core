@@ -47,6 +47,7 @@ class ProcessSessionLogging implements ShouldQueue
         //If no data...
         if (!$dataLoaded) {
             Log::error('ProcessSessionLogs job: VATSIMPhp failed to load data');
+
             return;
         }
 
@@ -76,7 +77,7 @@ class ProcessSessionLogging implements ShouldQueue
                     }
                 }
             } else { //Looking for a new session
-                if(empty($vatsimSessionInstances)){ // Should be empty if there's no sessions found, not with an index of 0
+                if (empty($vatsimSessionInstances)) { // Should be empty if there's no sessions found, not with an index of 0
                     Log::info('No sessions found for '.$position->identifier);
                     continue;
                 }

@@ -9,26 +9,27 @@ use Parsedown;
 use Spatie\Activitylog\Traits\LogsActivity;
 
 /**
- * App\Models\News\News
+ * App\Models\News\News.
  *
- * @property int $id
- * @property string $title
- * @property int $user_id
- * @property int $show_author
- * @property string|null $image
- * @property string|null $content
- * @property string|null $summary
- * @property \Illuminate\Support\Carbon $published
+ * @property int                             $id
+ * @property string                          $title
+ * @property int                             $user_id
+ * @property int                             $show_author
+ * @property string|null                     $image
+ * @property string|null                     $content
+ * @property string|null                     $summary
+ * @property \Illuminate\Support\Carbon      $published
  * @property \Illuminate\Support\Carbon|null $edited
- * @property int $visible
- * @property int $email_level
- * @property int $certification
- * @property string $slug
+ * @property int                             $visible
+ * @property int                             $email_level
+ * @property int                             $certification
+ * @property string                          $slug
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \Illuminate\Database\Eloquent\Collection|\Spatie\Activitylog\Models\Activity[] $activities
  * @property-read int|null $activities_count
  * @property-read User $user
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|News newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|News newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|News query()

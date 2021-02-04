@@ -16,11 +16,11 @@ use Exception;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * App\Models\Training\Instructing\Students\Student
+ * App\Models\Training\Instructing\Students\Student.
  *
- * @property int $id
- * @property int $user_id
- * @property int $current
+ * @property int                             $id
+ * @property int                             $user_id
+ * @property int                             $current
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Training\Instructing\Students\StudentAvailabilitySubmission[] $availability
@@ -36,6 +36,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property-read \Illuminate\Database\Eloquent\Collection|TrainingSession[] $trainingSessions
  * @property-read int|null $training_sessions_count
  * @property-read User $user
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|Student newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Student newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Student query()

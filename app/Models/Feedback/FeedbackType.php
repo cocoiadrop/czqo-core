@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 use Spatie\Permission\Models\Role;
 
 /**
- * App\Models\Feedback\FeedbackType
+ * App\Models\Feedback\FeedbackType.
  *
  * @var id                 Incremental ID of the feedback type.
  * @var name               Name of the feedback type.
@@ -15,11 +15,12 @@ use Spatie\Permission\Models\Role;
  * @var slug               URL slug of type.
  * @var created_at         Time created at.
  * @var updated_at         Time last updated at.
- * @property int $id
- * @property string $name
- * @property string $description
- * @property string $slug
- * @property int $visible_to_role_id
+ *
+ * @property int                             $id
+ * @property string                          $name
+ * @property string                          $description
+ * @property string                          $slug
+ * @property int                             $visible_to_role_id
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Feedback\FeedbackTypeField[] $fields
@@ -27,6 +28,7 @@ use Spatie\Permission\Models\Role;
  * @property-read Role $role
  * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Feedback\FeedbackSubmission[] $submissions
  * @property-read int|null $submissions_count
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|FeedbackType newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|FeedbackType newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|FeedbackType query()

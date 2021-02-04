@@ -10,7 +10,7 @@ use Parsedown;
 use Spatie\Activitylog\Traits\LogsActivity;
 
 /**
- * App\Models\Feedback\FeedbackSubmission
+ * App\Models\Feedback\FeedbackSubmission.
  *
  * @var id                    Incremental ID of feedback.
  * @var user_id               User foreign key for whoever submitted the feedback.
@@ -20,12 +20,13 @@ use Spatie\Activitylog\Traits\LogsActivity;
  * @var slug                  URL slug of type.
  * @var created_at            Time feedback submitted at.
  * @var updated_at            Time feedback last updated at.
- * @property int $id
- * @property string $slug
- * @property int $user_id
- * @property int $type_id
- * @property string $submission_content
- * @property int $permission_to_publish
+ *
+ * @property int                             $id
+ * @property string                          $slug
+ * @property int                             $user_id
+ * @property int                             $type_id
+ * @property string                          $submission_content
+ * @property int                             $permission_to_publish
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
@@ -35,6 +36,7 @@ use Spatie\Activitylog\Traits\LogsActivity;
  * @property-read int|null $fields_count
  * @property-read \App\Models\Feedback\FeedbackType $type
  * @property-read User $user
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|FeedbackSubmission newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|FeedbackSubmission newQuery()
  * @method static \Illuminate\Database\Query\Builder|FeedbackSubmission onlyTrashed()

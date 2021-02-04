@@ -8,20 +8,21 @@ use Illuminate\Support\HtmlString;
 use Parsedown;
 
 /**
- * App\Models\Community\Discord\DiscordBan
+ * App\Models\Community\Discord\DiscordBan.
  *
- * @property int $id
- * @property int $user_id
- * @property int $moderator_id
- * @property string|null $deleted_at
- * @property string $reason
- * @property \Illuminate\Support\Carbon $start_time
+ * @property int                             $id
+ * @property int                             $user_id
+ * @property int                             $moderator_id
+ * @property string|null                     $deleted_at
+ * @property string                          $reason
+ * @property \Illuminate\Support\Carbon      $start_time
  * @property \Illuminate\Support\Carbon|null $end_time
- * @property int|null $discord_id
+ * @property int|null                        $discord_id
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read User $moderator
  * @property-read User $user
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|DiscordBan newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|DiscordBan newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|DiscordBan query()

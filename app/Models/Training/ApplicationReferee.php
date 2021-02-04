@@ -6,17 +6,18 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
- * App\Models\Training\ApplicationReferee
+ * App\Models\Training\ApplicationReferee.
  *
- * @property int $id
- * @property int $application_id
+ * @property int                             $id
+ * @property int                             $application_id
  * @property \Illuminate\Support\Carbon|null $deleted_at
- * @property string $referee_full_name
- * @property string|null $referee_email
- * @property string|null $referee_staff_position
+ * @property string                          $referee_full_name
+ * @property string|null                     $referee_email
+ * @property string|null                     $referee_staff_position
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \App\Models\Training\Application $application
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|ApplicationReferee newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|ApplicationReferee newQuery()
  * @method static \Illuminate\Database\Query\Builder|ApplicationReferee onlyTrashed()

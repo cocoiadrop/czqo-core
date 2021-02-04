@@ -5,17 +5,18 @@ namespace App\Models\Users;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * App\Models\Users\UserNotification
+ * App\Models\Users\UserNotification.
  *
- * @property int $id
- * @property int $user_id
- * @property string $notification_id
- * @property string $dateTime
- * @property string $content
- * @property string $link
+ * @property int                             $id
+ * @property int                             $user_id
+ * @property string                          $notification_id
+ * @property string                          $dateTime
+ * @property string                          $content
+ * @property string                          $link
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \App\Models\Users\User $user
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|UserNotification newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|UserNotification newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|UserNotification query()

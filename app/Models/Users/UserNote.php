@@ -5,17 +5,18 @@ namespace App\Models\Users;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * App\Models\Users\UserNote
+ * App\Models\Users\UserNote.
  *
- * @property int $id
- * @property int $user_id
- * @property int $author
- * @property string $content
- * @property int $confidential
- * @property string $timestamp
+ * @property int                             $id
+ * @property int                             $user_id
+ * @property int                             $author
+ * @property string                          $content
+ * @property int                             $confidential
+ * @property string                          $timestamp
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \App\Models\Users\User $user
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|UserNote newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|UserNote newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|UserNote query()

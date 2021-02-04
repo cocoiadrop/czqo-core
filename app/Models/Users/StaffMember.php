@@ -6,21 +6,22 @@ use Illuminate\Database\Eloquent\Model;
 use Spatie\Activitylog\Traits\LogsActivity;
 
 /**
- * App\Models\Users\StaffMember
+ * App\Models\Users\StaffMember.
  *
- * @property int $id
- * @property string $position
- * @property string $group
- * @property string $description
- * @property string $email
+ * @property int                             $id
+ * @property string                          $position
+ * @property string                          $group
+ * @property string                          $description
+ * @property string                          $email
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
- * @property string $shortform
- * @property int $user_id
- * @property int|null $group_id
+ * @property string                          $shortform
+ * @property int                             $user_id
+ * @property int|null                        $group_id
  * @property-read \Illuminate\Database\Eloquent\Collection|\Spatie\Activitylog\Models\Activity[] $activities
  * @property-read int|null $activities_count
  * @property-read \App\Models\Users\User $user
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|StaffMember newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|StaffMember newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|StaffMember query()

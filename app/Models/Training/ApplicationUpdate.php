@@ -9,18 +9,19 @@ use Illuminate\Support\HtmlString;
 use Parsedown;
 
 /**
- * App\Models\Training\ApplicationUpdate
+ * App\Models\Training\ApplicationUpdate.
  *
- * @property int $id
- * @property int $application_id
+ * @property int                             $id
+ * @property int                             $application_id
  * @property \Illuminate\Support\Carbon|null $deleted_at
- * @property string $update_title
- * @property string|null $update_content
- * @property string|null $update_type
+ * @property string                          $update_title
+ * @property string|null                     $update_content
+ * @property string|null                     $update_type
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \App\Models\Training\Application $application
  * @property-read User $user
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|ApplicationUpdate newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|ApplicationUpdate newQuery()
  * @method static \Illuminate\Database\Query\Builder|ApplicationUpdate onlyTrashed()

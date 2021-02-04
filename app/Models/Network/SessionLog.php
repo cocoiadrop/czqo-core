@@ -8,22 +8,23 @@ use Spatie\Activitylog\Traits\LogsActivity;
 
 // Log of all sessions
 /**
- * App\Models\Network\SessionLog
+ * App\Models\Network\SessionLog.
  *
- * @property int $id
- * @property int $cid
- * @property \Illuminate\Support\Carbon $session_start
+ * @property int                             $id
+ * @property int                             $cid
+ * @property \Illuminate\Support\Carbon      $session_start
  * @property \Illuminate\Support\Carbon|null $session_end
- * @property float|null $duration
- * @property int $emails_sent
+ * @property float|null                      $duration
+ * @property int                             $emails_sent
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
- * @property int|null $monitored_position_id
- * @property int|null $roster_member_id
+ * @property int|null                        $monitored_position_id
+ * @property int|null                        $roster_member_id
  * @property-read \Illuminate\Database\Eloquent\Collection|\Spatie\Activitylog\Models\Activity[] $activities
  * @property-read int|null $activities_count
  * @property-read \App\Models\Network\MonitoredPosition|null $position
  * @property-read RosterMember|null $rosterMember
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|SessionLog newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|SessionLog newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|SessionLog query()

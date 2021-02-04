@@ -6,24 +6,25 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Auth;
 
 /**
- * App\Models\Publications\CustomPage
+ * App\Models\Publications\CustomPage.
  *
- * @property int $id
- * @property string $name
- * @property string $slug
- * @property string $content
- * @property string|null $description
- * @property string|null $thumbnail
- * @property int $response_form_enabled
- * @property string|null $response_form_email
- * @property string|null $response_form_title
- * @property string|null $response_form_description
+ * @property int                             $id
+ * @property string                          $name
+ * @property string                          $slug
+ * @property string                          $content
+ * @property string|null                     $description
+ * @property string|null                     $thumbnail
+ * @property int                             $response_form_enabled
+ * @property string|null                     $response_form_email
+ * @property string|null                     $response_form_title
+ * @property string|null                     $response_form_description
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Publications\CustomPagePermission[] $permissions
  * @property-read int|null $permissions_count
  * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Publications\CustomPageResponse[] $responses
  * @property-read int|null $responses_count
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|CustomPage newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|CustomPage newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|CustomPage query()

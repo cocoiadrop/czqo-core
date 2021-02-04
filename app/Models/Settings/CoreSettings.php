@@ -6,26 +6,27 @@ use Illuminate\Database\Eloquent\Model;
 use Spatie\Activitylog\Traits\LogsActivity;
 
 /**
- * App\Models\Settings\CoreSettings
+ * App\Models\Settings\CoreSettings.
  *
- * @property int $id
- * @property string $sys_name
- * @property string $release
- * @property string $sys_build
- * @property string $copyright_year
+ * @property int                             $id
+ * @property string                          $sys_name
+ * @property string                          $release
+ * @property string                          $sys_build
+ * @property string                          $copyright_year
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
- * @property string $banner
- * @property string $bannerMode
- * @property string $bannerLink
- * @property string $emailfirchief
- * @property string $emaildepfirchief
- * @property string $emailcinstructor
- * @property string $emaileventc
- * @property string $emailfacilitye
- * @property string $emailwebmaster
+ * @property string                          $banner
+ * @property string                          $bannerMode
+ * @property string                          $bannerLink
+ * @property string                          $emailfirchief
+ * @property string                          $emaildepfirchief
+ * @property string                          $emailcinstructor
+ * @property string                          $emaileventc
+ * @property string                          $emailfacilitye
+ * @property string                          $emailwebmaster
  * @property-read \Illuminate\Database\Eloquent\Collection|\Spatie\Activitylog\Models\Activity[] $activities
  * @property-read int|null $activities_count
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|CoreSettings newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|CoreSettings newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|CoreSettings query()

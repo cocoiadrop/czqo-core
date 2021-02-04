@@ -10,18 +10,19 @@ use Illuminate\Support\HtmlString;
 use Parsedown;
 
 /**
- * App\Models\Training\Instructing\Records\StudentNote
+ * App\Models\Training\Instructing\Records\StudentNote.
  *
- * @property int $id
- * @property int $student_id
- * @property int $instructor_id
- * @property string $content
+ * @property int                             $id
+ * @property int                             $student_id
+ * @property int                             $instructor_id
+ * @property string                          $content
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property \Illuminate\Support\Carbon|null $deleted_at
- * @property int $staff_only
+ * @property int                             $staff_only
  * @property-read Instructor $instructor
  * @property-read Student $student
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|StudentNote newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|StudentNote newQuery()
  * @method static \Illuminate\Database\Query\Builder|StudentNote onlyTrashed()

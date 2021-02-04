@@ -5,17 +5,18 @@ namespace App\Models\Users;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * App\Models\Users\UserPreferences
+ * App\Models\Users\UserPreferences.
  *
- * @property int $id
- * @property int $user_id
- * @property int $enable_beta_components
- * @property string $ui_mode
- * @property int $enable_discord_notifications
+ * @property int                             $id
+ * @property int                             $user_id
+ * @property int                             $enable_beta_components
+ * @property string                          $ui_mode
+ * @property int                             $enable_discord_notifications
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
- * @property string|null $accent_colour
+ * @property string|null                     $accent_colour
  * @property-read \App\Models\Users\User $user
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|UserPreferences newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|UserPreferences newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|UserPreferences query()

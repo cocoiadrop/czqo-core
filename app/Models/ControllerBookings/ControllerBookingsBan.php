@@ -6,9 +6,10 @@ use App\Models\Users\User;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * App\Models\ControllerBookings\ControllerBookingsBan
+ * App\Models\ControllerBookings\ControllerBookingsBan.
  *
  * @property-read User $user
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|ControllerBookingsBan newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|ControllerBookingsBan newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|ControllerBookingsBan query()
