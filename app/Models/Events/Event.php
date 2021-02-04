@@ -12,23 +12,23 @@ use Parsedown;
 use Spatie\Activitylog\Traits\LogsActivity;
 
 /**
- * App\Models\Events\Event
+ * App\Models\Events\Event.
  *
- * @property int $id
- * @property string $name
- * @property \Illuminate\Support\Carbon $start_timestamp
- * @property \Illuminate\Support\Carbon $end_timestamp
- * @property int $user_id
- * @property string $description
- * @property string|null $image_url
- * @property int $controller_applications_open
- * @property string|null $departure_icao
- * @property string|null $arrival_icao
- * @property string $slug
+ * @property int                             $id
+ * @property string                          $name
+ * @property \Illuminate\Support\Carbon      $start_timestamp
+ * @property \Illuminate\Support\Carbon      $end_timestamp
+ * @property int                             $user_id
+ * @property string                          $description
+ * @property string|null                     $image_url
+ * @property int                             $controller_applications_open
+ * @property string|null                     $departure_icao
+ * @property string|null                     $arrival_icao
+ * @property string                          $slug
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property \Illuminate\Support\Carbon|null $deleted_at
- * @property int $allow_not_certified_sign_ups
+ * @property int                             $allow_not_certified_sign_ups
  * @property-read \Illuminate\Database\Eloquent\Collection|\Spatie\Activitylog\Models\Activity[] $activities
  * @property-read int|null $activities_count
  * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Events\ControllerApplication[] $controllerApplications
@@ -36,6 +36,7 @@ use Spatie\Activitylog\Traits\LogsActivity;
  * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Events\EventUpdate[] $updates
  * @property-read int|null $updates_count
  * @property-read User $user
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|Event newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Event newQuery()
  * @method static \Illuminate\Database\Query\Builder|Event onlyTrashed()

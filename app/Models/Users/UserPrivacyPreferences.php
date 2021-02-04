@@ -5,16 +5,17 @@ namespace App\Models\Users;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * App\Models\Users\UserPrivacyPreferences
+ * App\Models\Users\UserPrivacyPreferences.
  *
- * @property int $id
- * @property int $user_id
- * @property int $avatar_public
- * @property int $biography_public
- * @property int $session_logs_public
- * @property int $certification_details_public
+ * @property int                             $id
+ * @property int                             $user_id
+ * @property int                             $avatar_public
+ * @property int                             $biography_public
+ * @property int                             $session_logs_public
+ * @property int                             $certification_details_public
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|UserPrivacyPreferences newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|UserPrivacyPreferences newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|UserPrivacyPreferences query()

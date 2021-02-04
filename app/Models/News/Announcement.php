@@ -9,21 +9,22 @@ use Parsedown;
 use Spatie\Activitylog\Traits\LogsActivity;
 
 /**
- * App\Models\News\Announcement
+ * App\Models\News\Announcement.
  *
- * @property int $id
- * @property int $user_id
- * @property string $target_group
- * @property string $title
- * @property string $content
- * @property string $slug
- * @property string|null $reason_for_sending
- * @property string|null $notes
+ * @property int                             $id
+ * @property int                             $user_id
+ * @property string                          $target_group
+ * @property string                          $title
+ * @property string                          $content
+ * @property string                          $slug
+ * @property string|null                     $reason_for_sending
+ * @property string|null                     $notes
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \Illuminate\Database\Eloquent\Collection|\Spatie\Activitylog\Models\Activity[] $activities
  * @property-read int|null $activities_count
  * @property-read User $user
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|Announcement newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Announcement newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Announcement query()

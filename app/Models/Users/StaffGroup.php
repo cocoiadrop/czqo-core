@@ -5,17 +5,18 @@ namespace App\Models\Users;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * App\Models\Users\StaffGroup
+ * App\Models\Users\StaffGroup.
  *
- * @property int $id
- * @property string $name
- * @property string $slug
- * @property string|null $description
- * @property int $can_receive_tickets
+ * @property int                             $id
+ * @property string                          $name
+ * @property string                          $slug
+ * @property string|null                     $description
+ * @property int                             $can_receive_tickets
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Users\StaffMember[] $members
  * @property-read int|null $members_count
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|StaffGroup newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|StaffGroup newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|StaffGroup query()

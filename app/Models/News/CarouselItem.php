@@ -5,7 +5,7 @@ namespace App\Models\News;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * App\Models\News\CarouselItem
+ * App\Models\News\CarouselItem.
  *
  * @method static \Illuminate\Database\Eloquent\Builder|CarouselItem newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|CarouselItem newQuery()

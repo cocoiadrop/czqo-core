@@ -11,23 +11,24 @@ use Illuminate\Support\HtmlString;
 use Parsedown;
 
 /**
- * App\Models\Training\Instructing\Records\OTSSession
+ * App\Models\Training\Instructing\Records\OTSSession.
  *
- * @property int $id
- * @property int $student_id
- * @property int $assessor_id
- * @property \Illuminate\Support\Carbon $scheduled_time
- * @property string|null $remarks
- * @property string $result
- * @property int|null $position_id
+ * @property int                             $id
+ * @property int                             $student_id
+ * @property int                             $assessor_id
+ * @property \Illuminate\Support\Carbon      $scheduled_time
+ * @property string|null                     $remarks
+ * @property string                          $result
+ * @property int|null                        $position_id
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property \Illuminate\Support\Carbon|null $deleted_at
- * @property int $reminder_sent
+ * @property int                             $reminder_sent
  * @property-read Instructor $instructor
  * @property-read \App\Models\Training\Instructing\Records\OTSSessionPassFailRecord|null $passFailRecord
  * @property-read MonitoredPosition|null $position
  * @property-read Student $student
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|OTSSession newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|OTSSession newQuery()
  * @method static \Illuminate\Database\Query\Builder|OTSSession onlyTrashed()

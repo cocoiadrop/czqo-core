@@ -7,16 +7,17 @@ use App\Models\Training\Instructing\Students\Student;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * App\Models\Training\Instructing\Records\InstuctorRecommendation
+ * App\Models\Training\Instructing\Records\InstuctorRecommendation.
  *
- * @property int $id
- * @property int $student_id
- * @property int $instructor_id
- * @property string $type
+ * @property int                             $id
+ * @property int                             $student_id
+ * @property int                             $instructor_id
+ * @property string                          $type
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read Instructor $instructor
  * @property-read Student $student
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|InstuctorRecommendation newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|InstuctorRecommendation newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|InstuctorRecommendation query()

@@ -110,7 +110,7 @@ class RosterController extends Controller
             //Get role ID based off status
             $roles = [
                 'certified' => 482819739996127259,
-                'student' => 482824058141016075,
+                'student'   => 482824058141016075,
             ];
 
             //Add role and remove role
@@ -125,8 +125,7 @@ class RosterController extends Controller
                     'user.id'  => $rosterMember->user->discord_user_id,
                     'role.id'  => $roles['student'],
                 ]);
-            }
-            elseif ($rosterMember->certification == 'training') {
+            } elseif ($rosterMember->certification == 'training') {
                 $discord->guild->addGuildMemberRole([
                     'guild.id' => intval(config('services.discord.guild_id')),
                     'user.id'  => $rosterMember->user->discord_user_id,
@@ -192,7 +191,7 @@ class RosterController extends Controller
             //Get role ID based off status
             $roles = [
                 'certified' => 482819739996127259,
-                'student' => 482824058141016075,
+                'student'   => 482824058141016075,
             ];
 
             $discord->guild->removeGuildMemberRole([
@@ -271,7 +270,7 @@ class RosterController extends Controller
             //Get role ID based off status
             $roles = [
                 'certified' => 482819739996127259,
-                'student' => 482824058141016075,
+                'student'   => 482824058141016075,
             ];
 
             //Add role and remove role
@@ -286,8 +285,7 @@ class RosterController extends Controller
                     'user.id'  => $rosterMember->user->discord_user_id,
                     'role.id'  => $roles['student'],
                 ]);
-            }
-            elseif ($rosterMember->certification == 'training') {
+            } elseif ($rosterMember->certification == 'training') {
                 $discord->guild->addGuildMemberRole([
                     'guild.id' => intval(config('services.discord.guild_id')),
                     'user.id'  => $rosterMember->user->discord_user_id,

@@ -9,19 +9,20 @@ use Parsedown;
 use Spatie\Activitylog\Traits\LogsActivity;
 
 /**
- * App\Models\Publications\AtcResource
+ * App\Models\Publications\AtcResource.
  *
- * @property int $id
- * @property int|null $user_id
- * @property string $title
- * @property string|null $description
- * @property string $url
+ * @property int                             $id
+ * @property int|null                        $user_id
+ * @property string                          $title
+ * @property string|null                     $description
+ * @property string                          $url
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
- * @property int $atc_only
+ * @property int                             $atc_only
  * @property-read \Illuminate\Database\Eloquent\Collection|\Spatie\Activitylog\Models\Activity[] $activities
  * @property-read int|null $activities_count
  * @property-read User|null $user
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|AtcResource newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|AtcResource newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|AtcResource query()

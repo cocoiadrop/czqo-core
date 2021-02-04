@@ -21,13 +21,13 @@ use Spatie\Permission\Traits\HasRoles;
 use Throwable;
 
 /**
- * App\Models\Users\User
+ * App\Models\Users\User.
  *
- * @property int $id
- * @property string $fname
- * @property string $lname
- * @property string $email
- * @property int|null $rating_id
+ * @property int         $id
+ * @property string      $fname
+ * @property string      $lname
+ * @property string      $email
+ * @property int|null    $rating_id
  * @property string|null $rating_short
  * @property string|null $rating_long
  * @property string|null $rating_GRP
@@ -38,21 +38,21 @@ use Throwable;
  * @property string|null $division_name
  * @property string|null $subdivision_code
  * @property string|null $subdivision_name
- * @property int $gdpr_subscribed_emails
- * @property int $deleted
- * @property int $init
- * @property string $avatar
+ * @property int         $gdpr_subscribed_emails
+ * @property int         $deleted
+ * @property int         $init
+ * @property string      $avatar
  * @property string|null $bio
  * @property string|null $remember_token
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
- * @property int $display_cid_only
+ * @property int         $display_cid_only
  * @property string|null $display_fname
- * @property int $display_last_name
- * @property int|null $discord_user_id
- * @property int|null $discord_dm_channel_id
- * @property int $avatar_mode
- * @property int $used_connect
+ * @property int         $display_last_name
+ * @property int|null    $discord_user_id
+ * @property int|null    $discord_dm_channel_id
+ * @property int         $avatar_mode
+ * @property int         $used_connect
  * @property-read \Illuminate\Database\Eloquent\Collection|\Spatie\Activitylog\Models\Activity[] $activities
  * @property-read int|null $activities_count
  * @property-read \Illuminate\Database\Eloquent\Collection|Application[] $applications
@@ -72,6 +72,7 @@ use Throwable;
  * @property-read RosterMember|null $rosterProfile
  * @property-read \App\Models\Users\StaffMember|null $staffProfile
  * @property-read Student|null $studentProfile
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|User newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|User newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|User permission($permissions)

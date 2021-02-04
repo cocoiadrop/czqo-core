@@ -9,22 +9,23 @@ use Illuminate\Support\HtmlString;
 use Spatie\Activitylog\Traits\LogsActivity;
 
 /**
- * App\Models\Roster\RosterMember
+ * App\Models\Roster\RosterMember.
  *
- * @property int $id
- * @property int $cid
- * @property int $user_id
- * @property string $certification
- * @property string|null $date_certified
- * @property int $active
- * @property float|null $monthly_hours
- * @property string|null $remarks
+ * @property int                             $id
+ * @property int                             $cid
+ * @property int                             $user_id
+ * @property string                          $certification
+ * @property string|null                     $date_certified
+ * @property int                             $active
+ * @property float|null                      $monthly_hours
+ * @property string|null                     $remarks
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
- * @property float|null $currency
+ * @property float|null                      $currency
  * @property-read \Illuminate\Database\Eloquent\Collection|\Spatie\Activitylog\Models\Activity[] $activities
  * @property-read int|null $activities_count
  * @property-read User $user
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|RosterMember newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|RosterMember newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|RosterMember query()

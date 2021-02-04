@@ -6,18 +6,19 @@ use App\Models\Users\User;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * App\Models\Settings\AuditLogEntry
+ * App\Models\Settings\AuditLogEntry.
  *
- * @property int $id
- * @property int $user_id
- * @property string $action
- * @property int $affected_id
- * @property string $time
- * @property int $private
+ * @property int                             $id
+ * @property int                             $user_id
+ * @property string                          $action
+ * @property int                             $affected_id
+ * @property string                          $time
+ * @property int                             $private
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read User $affectedUser
  * @property-read User $user
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|AuditLogEntry newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|AuditLogEntry newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|AuditLogEntry query()

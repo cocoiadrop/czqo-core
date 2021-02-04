@@ -9,14 +9,14 @@ use Illuminate\Support\HtmlString;
 use Parsedown;
 
 /**
- * App\Models\Training\Application
+ * App\Models\Training\Application.
  *
- * @property int $id
- * @property string|null $reference_id
- * @property int $user_id
- * @property int $status
+ * @property int                             $id
+ * @property string|null                     $reference_id
+ * @property int                             $user_id
+ * @property int                             $status
  * @property \Illuminate\Support\Carbon|null $deleted_at
- * @property string|null $applicant_statement
+ * @property string|null                     $applicant_statement
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Training\ApplicationComment[] $comments
@@ -26,6 +26,7 @@ use Parsedown;
  * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Training\ApplicationUpdate[] $updates
  * @property-read int|null $updates_count
  * @property-read User $user
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|Application newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Application newQuery()
  * @method static \Illuminate\Database\Query\Builder|Application onlyTrashed()

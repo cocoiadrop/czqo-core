@@ -11,14 +11,14 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Notifiable;
 
 /**
- * App\Models\Training\Instructing\Instructors\Instructor
+ * App\Models\Training\Instructing\Instructors\Instructor.
  *
- * @property int $id
- * @property int $user_id
- * @property int $current
- * @property int $assessor
- * @property string|null $staff_email
- * @property string|null $staff_page_tagline
+ * @property int                             $id
+ * @property int                             $user_id
+ * @property int                             $current
+ * @property int                             $assessor
+ * @property string|null                     $staff_email
+ * @property string|null                     $staff_page_tagline
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \Illuminate\Notifications\DatabaseNotificationCollection|\Illuminate\Notifications\DatabaseNotification[] $notifications
@@ -30,6 +30,7 @@ use Illuminate\Notifications\Notifiable;
  * @property-read \Illuminate\Database\Eloquent\Collection|TrainingSession[] $trainingSessions
  * @property-read int|null $training_sessions_count
  * @property-read User $user
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|Instructor newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Instructor newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Instructor query()

@@ -10,19 +10,20 @@ use Parsedown;
 use Spatie\Activitylog\Traits\LogsActivity;
 
 /**
- * App\Models\Publications\MeetingMinutes
+ * App\Models\Publications\MeetingMinutes.
  *
- * @property int $id
- * @property int $user_id
- * @property string $title
- * @property string $description
- * @property string $url
+ * @property int                             $id
+ * @property int                             $user_id
+ * @property string                          $title
+ * @property string                          $description
+ * @property string                          $url
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \Illuminate\Database\Eloquent\Collection|\Spatie\Activitylog\Models\Activity[] $activities
  * @property-read int|null $activities_count
  * @property-read User $user
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|MeetingMinutes newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|MeetingMinutes newQuery()
  * @method static \Illuminate\Database\Query\Builder|MeetingMinutes onlyTrashed()

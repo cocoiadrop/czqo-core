@@ -6,14 +6,15 @@ use Illuminate\Database\Eloquent\Model;
 use Spatie\Permission\Models\Role;
 
 /**
- * App\Models\Publications\CustomPagePermission
+ * App\Models\Publications\CustomPagePermission.
  *
- * @property int $id
- * @property int $role_id
- * @property int $page_id
+ * @property int                             $id
+ * @property int                             $role_id
+ * @property int                             $page_id
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read Role $role
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|CustomPagePermission newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|CustomPagePermission newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|CustomPagePermission query()

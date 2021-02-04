@@ -6,13 +6,14 @@ use Illuminate\Database\Eloquent\Model;
 
 // Times of the year to remove members
 /**
- * App\MemberRemovalTime
+ * App\MemberRemovalTime.
  *
- * @property int $id
- * @property int $day
- * @property int $month
+ * @property int                             $id
+ * @property int                             $day
+ * @property int                             $month
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|MemberRemovalTime newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|MemberRemovalTime newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|MemberRemovalTime query()

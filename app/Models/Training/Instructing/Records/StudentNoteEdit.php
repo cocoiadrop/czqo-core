@@ -5,15 +5,16 @@ namespace App\Models\Training\Instructing\Records;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * App\Models\Training\Instructing\Records\StudentNoteEdit
+ * App\Models\Training\Instructing\Records\StudentNoteEdit.
  *
- * @property int $id
- * @property int $instructor_id
- * @property int $student_note_id
- * @property string $content_as_of_edit
- * @property string|null $reason
+ * @property int                             $id
+ * @property int                             $instructor_id
+ * @property int                             $student_note_id
+ * @property string                          $content_as_of_edit
+ * @property string|null                     $reason
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|StudentNoteEdit newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|StudentNoteEdit newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|StudentNoteEdit query()

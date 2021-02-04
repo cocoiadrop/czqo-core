@@ -6,19 +6,20 @@ use App\Models\Users\User;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * App\Models\Roster\SoloCertification
+ * App\Models\Roster\SoloCertification.
  *
- * @property int $id
- * @property int $roster_member_id
+ * @property int                             $id
+ * @property int                             $roster_member_id
  * @property \Illuminate\Support\Carbon|null $expires
- * @property int $instructor_id
- * @property string|null $remarks
+ * @property int                             $instructor_id
+ * @property string|null                     $remarks
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
- * @property int $expiry_notification_sent
+ * @property int                             $expiry_notification_sent
  * @property \Illuminate\Support\Carbon|null $expiry_notification_time
  * @property-read User $instructor
  * @property-read \App\Models\Roster\RosterMember $rosterMember
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|SoloCertification newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|SoloCertification newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|SoloCertification query()

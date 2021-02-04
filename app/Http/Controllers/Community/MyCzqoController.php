@@ -245,8 +245,7 @@ class MyCzqoController extends Controller
         $user->save();
 
         //Member of guild?
-        if ($user->memberOfCzqoGuild())
-        {
+        if ($user->memberOfCzqoGuild()) {
             //Get Discord client
             $discord = new DiscordClient(['token' => config('services.discord.token')]);
 

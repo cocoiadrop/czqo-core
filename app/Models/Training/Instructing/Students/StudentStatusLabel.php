@@ -7,18 +7,19 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\HtmlString;
 
 /**
- * App\Models\Training\Instructing\Students\StudentStatusLabel
+ * App\Models\Training\Instructing\Students\StudentStatusLabel.
  *
- * @property int $id
- * @property string $name
- * @property string|null $fa_icon
- * @property string|null $colour
- * @property string|null $description
- * @property int $restricted
+ * @property int                             $id
+ * @property string                          $name
+ * @property string|null                     $fa_icon
+ * @property string|null                     $colour
+ * @property string|null                     $description
+ * @property int                             $restricted
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \Illuminate\Database\Eloquent\Collection|StudentStatusLabelLink[] $students
  * @property-read int|null $students_count
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|StudentStatusLabel newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|StudentStatusLabel newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|StudentStatusLabel query()
